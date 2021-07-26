@@ -1,6 +1,6 @@
 # Recreating Nubank interface 💭
 
-Coming soon... 🚧
+### Coming soon... 🚧
 
 <!-- ## About this project
 
