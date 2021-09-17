@@ -1,27 +1,23 @@
-#container {
-  text-align: center;
+ion-header {
+  ion-toolbar {
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+    --min-height: 100px;
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+    ion-title {
+      align-items: flex-end;
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+      img {
+        width: 45px;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      span {
+        font-size: 22px;
+      }
 
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+      ion-button {
+        display: block;
+      }
+    }
+  }
 }
